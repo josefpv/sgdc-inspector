@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9421D7792ABA1AE2007630FE /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9421D7782ABA1AE2007630FE /* AuthenticationView.swift */; };
+		945976292AA618F400C0A6A3 /* ActionsResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945976282AA618F400C0A6A3 /* ActionsResultModel.swift */; };
+		9459762B2AA61A2200C0A6A3 /* ActionsResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9459762A2AA61A2200C0A6A3 /* ActionsResultViewModel.swift */; };
+		9459762D2AA61F3500C0A6A3 /* ConnectorDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9459762C2AA61F3500C0A6A3 /* ConnectorDetailsView.swift */; };
+		9459762F2AA6315800C0A6A3 /* ActionsBodyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9459762E2AA6315800C0A6A3 /* ActionsBodyModel.swift */; };
+		945976312AA6385000C0A6A3 /* ActionsResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945976302AA6385000C0A6A3 /* ActionsResultView.swift */; };
+		945976332AA638C600C0A6A3 /* ActionResultErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945976322AA638C600C0A6A3 /* ActionResultErrorView.swift */; };
+		945976352AA63C3800C0A6A3 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945976342AA63C3800C0A6A3 /* AboutView.swift */; };
+		945976372AA64AEF00C0A6A3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945976362AA64AEF00C0A6A3 /* Launch Screen.storyboard */; };
+		94BEEB212AA0495400F44316 /* SGDC_InspectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB202AA0495400F44316 /* SGDC_InspectorApp.swift */; };
+		94BEEB232AA0495400F44316 /* SGDCInspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB222AA0495400F44316 /* SGDCInspectorView.swift */; };
+		94BEEB252AA0495400F44316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BEEB242AA0495400F44316 /* Assets.xcassets */; };
+		94BEEB282AA0495400F44316 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BEEB272AA0495400F44316 /* Preview Assets.xcassets */; };
+		94BEEB302AA04A9B00F44316 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB2F2AA04A9B00F44316 /* MenuView.swift */; };
+		94BEEB392AA0D96A00F44316 /* PoolsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB382AA0D96A00F44316 /* PoolsSelectionView.swift */; };
+		94BEEB3B2AA0DDE000F44316 /* TerminalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB3A2AA0DDE000F44316 /* TerminalModel.swift */; };
+		94BEEB3D2AA0F3A100F44316 /* PoolResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB3C2AA0F3A100F44316 /* PoolResultView.swift */; };
+		94BEEB3F2AA0F4F900F44316 /* ConnectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB3E2AA0F4F900F44316 /* ConnectorView.swift */; };
+		94BEEB412AA0F90500F44316 /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB402AA0F90500F44316 /* StationView.swift */; };
+		94BEEB432AA106A500F44316 /* PoolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB422AA106A500F44316 /* PoolModel.swift */; };
+		94BEEB462AA10B6200F44316 /* PoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB452AA10B6200F44316 /* PoolViewModel.swift */; };
+		94BEEB492AA2462000F44316 /* ErrorServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB482AA2462000F44316 /* ErrorServiceView.swift */; };
+		94BEEB4B2AA24BC400F44316 /* ConnectorStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB4A2AA24BC400F44316 /* ConnectorStatusView.swift */; };
+		94BEEB4D2AA2574A00F44316 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB4C2AA2574A00F44316 /* SessionView.swift */; };
+		94BEEB4F2AA2823D00F44316 /* ConnectorStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB4E2AA2823D00F44316 /* ConnectorStatusModel.swift */; };
+		94BEEB512AA283EE00F44316 /* ConnectorStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB502AA283EE00F44316 /* ConnectorStatusViewModel.swift */; };
+		94BEEB532AA2E35100F44316 /* ConnectorActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB522AA2E35100F44316 /* ConnectorActionsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9421D7782ABA1AE2007630FE /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		945976282AA618F400C0A6A3 /* ActionsResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsResultModel.swift; sourceTree = "<group>"; };
+		9459762A2AA61A2200C0A6A3 /* ActionsResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsResultViewModel.swift; sourceTree = "<group>"; };
+		9459762C2AA61F3500C0A6A3 /* ConnectorDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorDetailsView.swift; sourceTree = "<group>"; };
+		9459762E2AA6315800C0A6A3 /* ActionsBodyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsBodyModel.swift; sourceTree = "<group>"; };
+		945976302AA6385000C0A6A3 /* ActionsResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsResultView.swift; sourceTree = "<group>"; };
+		945976322AA638C600C0A6A3 /* ActionResultErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionResultErrorView.swift; sourceTree = "<group>"; };
+		945976342AA63C3800C0A6A3 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		945976362AA64AEF00C0A6A3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		94BEEB1D2AA0495400F44316 /* SGDC_Inspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGDC_Inspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BEEB202AA0495400F44316 /* SGDC_InspectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGDC_InspectorApp.swift; sourceTree = "<group>"; };
+		94BEEB222AA0495400F44316 /* SGDCInspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGDCInspectorView.swift; sourceTree = "<group>"; };
+		94BEEB242AA0495400F44316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94BEEB272AA0495400F44316 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94BEEB2F2AA04A9B00F44316 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		94BEEB382AA0D96A00F44316 /* PoolsSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolsSelectionView.swift; sourceTree = "<group>"; };
+		94BEEB3A2AA0DDE000F44316 /* TerminalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalModel.swift; sourceTree = "<group>"; };
+		94BEEB3C2AA0F3A100F44316 /* PoolResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolResultView.swift; sourceTree = "<group>"; };
+		94BEEB3E2AA0F4F900F44316 /* ConnectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorView.swift; sourceTree = "<group>"; };
+		94BEEB402AA0F90500F44316 /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
+		94BEEB422AA106A500F44316 /* PoolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolModel.swift; sourceTree = "<group>"; };
+		94BEEB452AA10B6200F44316 /* PoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolViewModel.swift; sourceTree = "<group>"; };
+		94BEEB472AA11C7200F44316 /* SGDC-Inspector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SGDC-Inspector-Info.plist"; sourceTree = SOURCE_ROOT; };
+		94BEEB482AA2462000F44316 /* ErrorServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorServiceView.swift; sourceTree = "<group>"; };
+		94BEEB4A2AA24BC400F44316 /* ConnectorStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorStatusView.swift; sourceTree = "<group>"; };
+		94BEEB4C2AA2574A00F44316 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		94BEEB4E2AA2823D00F44316 /* ConnectorStatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorStatusModel.swift; sourceTree = "<group>"; };
+		94BEEB502AA283EE00F44316 /* ConnectorStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorStatusViewModel.swift; sourceTree = "<group>"; };
+		94BEEB522AA2E35100F44316 /* ConnectorActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorActionsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94BEEB1A2AA0495300F44316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94BEEB142AA0495300F44316 = {
+			isa = PBXGroup;
+			children = (
+				94BEEB1F2AA0495400F44316 /* SGDC_Inspector */,
+				94BEEB1E2AA0495400F44316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94BEEB1E2AA0495400F44316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94BEEB1D2AA0495400F44316 /* SGDC_Inspector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94BEEB1F2AA0495400F44316 /* SGDC_Inspector */ = {
+			isa = PBXGroup;
+			children = (
+				94BEEB472AA11C7200F44316 /* SGDC-Inspector-Info.plist */,
+				94BEEB202AA0495400F44316 /* SGDC_InspectorApp.swift */,
+				94BEEB222AA0495400F44316 /* SGDCInspectorView.swift */,
+				94BEEB442AA10B4B00F44316 /* ViewModel */,
+				94BEEB332AA04D3F00F44316 /* Models */,
+				94BEEB2E2AA04A7E00F44316 /* Views */,
+				94BEEB242AA0495400F44316 /* Assets.xcassets */,
+				94BEEB262AA0495400F44316 /* Preview Content */,
+			);
+			path = SGDC_Inspector;
+			sourceTree = "<group>";
+		};
+		94BEEB262AA0495400F44316 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94BEEB272AA0495400F44316 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94BEEB2E2AA04A7E00F44316 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94BEEB2F2AA04A9B00F44316 /* MenuView.swift */,
+				94BEEB382AA0D96A00F44316 /* PoolsSelectionView.swift */,
+				94BEEB3C2AA0F3A100F44316 /* PoolResultView.swift */,
+				94BEEB3E2AA0F4F900F44316 /* ConnectorView.swift */,
+				94BEEB402AA0F90500F44316 /* StationView.swift */,
+				94BEEB482AA2462000F44316 /* ErrorServiceView.swift */,
+				94BEEB4A2AA24BC400F44316 /* ConnectorStatusView.swift */,
+				94BEEB4C2AA2574A00F44316 /* SessionView.swift */,
+				94BEEB522AA2E35100F44316 /* ConnectorActionsView.swift */,
+				9459762C2AA61F3500C0A6A3 /* ConnectorDetailsView.swift */,
+				945976302AA6385000C0A6A3 /* ActionsResultView.swift */,
+				945976322AA638C600C0A6A3 /* ActionResultErrorView.swift */,
+				945976342AA63C3800C0A6A3 /* AboutView.swift */,
+				945976362AA64AEF00C0A6A3 /* Launch Screen.storyboard */,
+				9421D7782ABA1AE2007630FE /* AuthenticationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94BEEB332AA04D3F00F44316 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94BEEB3A2AA0DDE000F44316 /* TerminalModel.swift */,
+				94BEEB422AA106A500F44316 /* PoolModel.swift */,
+				94BEEB4E2AA2823D00F44316 /* ConnectorStatusModel.swift */,
+				945976282AA618F400C0A6A3 /* ActionsResultModel.swift */,
+				9459762E2AA6315800C0A6A3 /* ActionsBodyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94BEEB442AA10B4B00F44316 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				94BEEB452AA10B6200F44316 /* PoolViewModel.swift */,
+				94BEEB502AA283EE00F44316 /* ConnectorStatusViewModel.swift */,
+				9459762A2AA61A2200C0A6A3 /* ActionsResultViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94BEEB1C2AA0495300F44316 /* SGDC_Inspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BEEB2B2AA0495400F44316 /* Build configuration list for PBXNativeTarget "SGDC_Inspector" */;
+			buildPhases = (
+				94BEEB192AA0495300F44316 /* Sources */,
+				94BEEB1A2AA0495300F44316 /* Frameworks */,
+				94BEEB1B2AA0495300F44316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGDC_Inspector;
+			productName = SGDC_Inspector;
+			productReference = 94BEEB1D2AA0495400F44316 /* SGDC_Inspector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94BEEB152AA0495300F44316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					94BEEB1C2AA0495300F44316 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 94BEEB182AA0495300F44316 /* Build configuration list for PBXProject "SGDC_Inspector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94BEEB142AA0495300F44316;
+			productRefGroup = 94BEEB1E2AA0495400F44316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94BEEB1C2AA0495300F44316 /* SGDC_Inspector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94BEEB1B2AA0495300F44316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945976372AA64AEF00C0A6A3 /* Launch Screen.storyboard in Resources */,
+				94BEEB282AA0495400F44316 /* Preview Assets.xcassets in Resources */,
+				94BEEB252AA0495400F44316 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94BEEB192AA0495300F44316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BEEB462AA10B6200F44316 /* PoolViewModel.swift in Sources */,
+				94BEEB232AA0495400F44316 /* SGDCInspectorView.swift in Sources */,
+				94BEEB492AA2462000F44316 /* ErrorServiceView.swift in Sources */,
+				94BEEB4F2AA2823D00F44316 /* ConnectorStatusModel.swift in Sources */,
+				94BEEB412AA0F90500F44316 /* StationView.swift in Sources */,
+				94BEEB3B2AA0DDE000F44316 /* TerminalModel.swift in Sources */,
+				945976332AA638C600C0A6A3 /* ActionResultErrorView.swift in Sources */,
+				94BEEB392AA0D96A00F44316 /* PoolsSelectionView.swift in Sources */,
+				94BEEB4D2AA2574A00F44316 /* SessionView.swift in Sources */,
+				94BEEB432AA106A500F44316 /* PoolModel.swift in Sources */,
+				945976312AA6385000C0A6A3 /* ActionsResultView.swift in Sources */,
+				9459762B2AA61A2200C0A6A3 /* ActionsResultViewModel.swift in Sources */,
+				94BEEB3F2AA0F4F900F44316 /* ConnectorView.swift in Sources */,
+				945976352AA63C3800C0A6A3 /* AboutView.swift in Sources */,
+				9421D7792ABA1AE2007630FE /* AuthenticationView.swift in Sources */,
+				94BEEB3D2AA0F3A100F44316 /* PoolResultView.swift in Sources */,
+				94BEEB302AA04A9B00F44316 /* MenuView.swift in Sources */,
+				94BEEB532AA2E35100F44316 /* ConnectorActionsView.swift in Sources */,
+				9459762D2AA61F3500C0A6A3 /* ConnectorDetailsView.swift in Sources */,
+				945976292AA618F400C0A6A3 /* ActionsResultModel.swift in Sources */,
+				94BEEB512AA283EE00F44316 /* ConnectorStatusViewModel.swift in Sources */,
+				9459762F2AA6315800C0A6A3 /* ActionsBodyModel.swift in Sources */,
+				94BEEB4B2AA24BC400F44316 /* ConnectorStatusView.swift in Sources */,
+				94BEEB212AA0495400F44316 /* SGDC_InspectorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94BEEB292AA0495400F44316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94BEEB2A2AA0495400F44316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94BEEB2C2AA0495400F44316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SGDC_Inspector/Preview Content\"";
+				DEVELOPMENT_TEAM = KLZDM86V2H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SGDC-Inspector-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SGDC - Inspector";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Para acceder a pools";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sgdc.SGDC-Inspector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94BEEB2D2AA0495400F44316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SGDC_Inspector/Preview Content\"";
+				DEVELOPMENT_TEAM = KLZDM86V2H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SGDC-Inspector-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SGDC - Inspector";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Para acceder a pools";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sgdc.SGDC-Inspector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94BEEB182AA0495300F44316 /* Build configuration list for PBXProject "SGDC_Inspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BEEB292AA0495400F44316 /* Debug */,
+				94BEEB2A2AA0495400F44316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BEEB2B2AA0495400F44316 /* Build configuration list for PBXNativeTarget "SGDC_Inspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BEEB2C2AA0495400F44316 /* Debug */,
+				94BEEB2D2AA0495400F44316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94BEEB152AA0495300F44316 /* Project object */;
+}
